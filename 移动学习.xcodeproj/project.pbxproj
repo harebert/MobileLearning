@@ -112,7 +112,6 @@
 		8530ED3014F92EC30075DBD6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8530ED2F14F92EC30075DBD6 /* MobileCoreServices.framework */; };
 		85315E9714D67E6C00F565FC /* NewsAPP-w.png in Resources */ = {isa = PBXBuildFile; fileRef = 85315E9414D67E6C00F565FC /* NewsAPP-w.png */; };
 		85315E9F14D6832300F565FC /* newsapplogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 85315E9E14D6832300F565FC /* newsapplogo.png */; };
-		8553DACF14EBFF5400C3BB89 /* newsAPP-b@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8553DACE14EBFF5400C3BB89 /* newsAPP-b@2x.png */; };
 		856AD7BF15E5438C00F433C4 /* DownImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 856AD7BE15E5438C00F433C4 /* DownImage.m */; };
 		856AD7C015E5438C00F433C4 /* DownImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 856AD7BE15E5438C00F433C4 /* DownImage.m */; };
 		859AFB1714A180D500267A68 /* newsImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 859AFB1614A180D500267A68 /* newsImage.m */; };
@@ -170,6 +169,12 @@
 		85C7599615EFB4DC00AD0A8E /* videoicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 85C7599415EFB4DC00AD0A8E /* videoicon.png */; };
 		85C7599915EFB66F00AD0A8E /* exerciseicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 85C7599715EFB66F00AD0A8E /* exerciseicon.png */; };
 		85C7599A15EFB66F00AD0A8E /* recordicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 85C7599815EFB66F00AD0A8E /* recordicon.png */; };
+		85C75A8115F7A6F800AD0A8E /* ipad_button_touched.png in Resources */ = {isa = PBXBuildFile; fileRef = 85C75A7B15F7A6F700AD0A8E /* ipad_button_touched.png */; };
+		85C75A8215F7A6F800AD0A8E /* ipad_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 85C75A7C15F7A6F700AD0A8E /* ipad_button.png */; };
+		85C75A8315F7A6F800AD0A8E /* ipadBak1.png in Resources */ = {isa = PBXBuildFile; fileRef = 85C75A7D15F7A6F700AD0A8E /* ipadBak1.png */; };
+		85C75A8415F7A6F800AD0A8E /* iphone_button_touched.png in Resources */ = {isa = PBXBuildFile; fileRef = 85C75A7E15F7A6F800AD0A8E /* iphone_button_touched.png */; };
+		85C75A8515F7A6F800AD0A8E /* iphone_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 85C75A7F15F7A6F800AD0A8E /* iphone_button.png */; };
+		85C75A8615F7A6F800AD0A8E /* iphoneBak1.png in Resources */ = {isa = PBXBuildFile; fileRef = 85C75A8015F7A6F800AD0A8E /* iphoneBak1.png */; };
 		85DD995C1503661E00B731FC /* avBAK.png in Resources */ = {isa = PBXBuildFile; fileRef = 85DD995B1503661E00B731FC /* avBAK.png */; };
 		85E7C15B14ED37BD0019FBAF /* newsapplogo-retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 85E7C15A14ED37BD0019FBAF /* newsapplogo-retina.png */; };
 		85E7C15E14ED38040019FBAF /* newsapplogo-retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 85E7C15D14ED38040019FBAF /* newsapplogo-retina.png */; };
@@ -387,7 +392,6 @@
 		8530ED2F14F92EC30075DBD6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		85315E9414D67E6C00F565FC /* NewsAPP-w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NewsAPP-w.png"; sourceTree = "<group>"; };
 		85315E9E14D6832300F565FC /* newsapplogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newsapplogo.png; sourceTree = "<group>"; };
-		8553DACE14EBFF5400C3BB89 /* newsAPP-b@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "newsAPP-b@2x.png"; sourceTree = "<group>"; };
 		856AD7BD15E5438C00F433C4 /* DownImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DownImage.h; path = egorefreshTableHeader_reSource/DownImage.h; sourceTree = "<group>"; };
 		856AD7BE15E5438C00F433C4 /* DownImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DownImage.m; path = egorefreshTableHeader_reSource/DownImage.m; sourceTree = "<group>"; };
 		856AD7C115E5E29100F433C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/newsDetail.h; sourceTree = "<group>"; };
@@ -460,6 +464,12 @@
 		85C7599415EFB4DC00AD0A8E /* videoicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = videoicon.png; sourceTree = "<group>"; };
 		85C7599715EFB66F00AD0A8E /* exerciseicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exerciseicon.png; sourceTree = "<group>"; };
 		85C7599815EFB66F00AD0A8E /* recordicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recordicon.png; sourceTree = "<group>"; };
+		85C75A7B15F7A6F700AD0A8E /* ipad_button_touched.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad_button_touched.png; sourceTree = "<group>"; };
+		85C75A7C15F7A6F700AD0A8E /* ipad_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad_button.png; sourceTree = "<group>"; };
+		85C75A7D15F7A6F700AD0A8E /* ipadBak1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipadBak1.png; sourceTree = "<group>"; };
+		85C75A7E15F7A6F800AD0A8E /* iphone_button_touched.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone_button_touched.png; sourceTree = "<group>"; };
+		85C75A7F15F7A6F800AD0A8E /* iphone_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone_button.png; sourceTree = "<group>"; };
+		85C75A8015F7A6F800AD0A8E /* iphoneBak1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphoneBak1.png; sourceTree = "<group>"; };
 		85D4919B15A27D870015C6AD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/MainWindow.xib"; sourceTree = "<group>"; };
 		85D4919D15A27DB80015C6AD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/SFLSNewsViewController.xib"; sourceTree = "<group>"; };
 		85DD995B1503661E00B731FC /* avBAK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avBAK.png; sourceTree = "<group>"; };
@@ -898,6 +908,12 @@
 		85A1F2F914FBDDD50007AFAC /* sflsAV */ = {
 			isa = PBXGroup;
 			children = (
+				85C75A7B15F7A6F700AD0A8E /* ipad_button_touched.png */,
+				85C75A7C15F7A6F700AD0A8E /* ipad_button.png */,
+				85C75A7D15F7A6F700AD0A8E /* ipadBak1.png */,
+				85C75A7E15F7A6F800AD0A8E /* iphone_button_touched.png */,
+				85C75A7F15F7A6F800AD0A8E /* iphone_button.png */,
+				85C75A8015F7A6F800AD0A8E /* iphoneBak1.png */,
 				85A1F32314FBE0250007AFAC /* AVTESTViewController.xib */,
 				85A1F2FB14FBDE270007AFAC /* AVTESTViewController.h */,
 				85A1F2FC14FBDE270007AFAC /* AVTESTViewController.m */,
@@ -1012,7 +1028,6 @@
 				85ABB7C915045DC900AC5A2B /* newsAPP-b.png */,
 				85E7C15F14ED38450019FBAF /* newsapplogo-s.png */,
 				85E7C15D14ED38040019FBAF /* newsapplogo-retina.png */,
-				8553DACE14EBFF5400C3BB89 /* newsAPP-b@2x.png */,
 				85F41EF914971F300087D1A0 /* XMLelement.h */,
 				85F41EFA14971F300087D1A0 /* XMLelement.m */,
 				85F41EFC149721000087D1A0 /* XMLDocument.h */,
@@ -1222,7 +1237,6 @@
 				85A04D4D14C9E3D400ED39A6 /* classslide_r.png in Resources */,
 				85315E9714D67E6C00F565FC /* NewsAPP-w.png in Resources */,
 				85315E9F14D6832300F565FC /* newsapplogo.png in Resources */,
-				8553DACF14EBFF5400C3BB89 /* newsAPP-b@2x.png in Resources */,
 				85E7C15B14ED37BD0019FBAF /* newsapplogo-retina.png in Resources */,
 				85E7C15E14ED38040019FBAF /* newsapplogo-retina.png in Resources */,
 				85E7C16014ED38450019FBAF /* newsapplogo-s.png in Resources */,
@@ -1298,6 +1312,12 @@
 				85C7599615EFB4DC00AD0A8E /* videoicon.png in Resources */,
 				85C7599915EFB66F00AD0A8E /* exerciseicon.png in Resources */,
 				85C7599A15EFB66F00AD0A8E /* recordicon.png in Resources */,
+				85C75A8115F7A6F800AD0A8E /* ipad_button_touched.png in Resources */,
+				85C75A8215F7A6F800AD0A8E /* ipad_button.png in Resources */,
+				85C75A8315F7A6F800AD0A8E /* ipadBak1.png in Resources */,
+				85C75A8415F7A6F800AD0A8E /* iphone_button_touched.png in Resources */,
+				85C75A8515F7A6F800AD0A8E /* iphone_button.png in Resources */,
+				85C75A8615F7A6F800AD0A8E /* iphoneBak1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
