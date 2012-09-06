@@ -15,7 +15,6 @@
 #import "RotatingTabBarController.h"
 #import "ViewController.h"
 #import "WBEngine.h"
-#import "bigClass.h"
 @implementation SFLSNewsAppDelegate
 
 @synthesize MainWindow = _MainWindow;
@@ -36,7 +35,7 @@
     [newsNav pushViewController:self.viewController animated:NO];
     
     //self.window.rootViewController=self.viewController;
-    bigClass *newAlumniInput=[[bigClass alloc]init];
+    alumniInput *newAlumniInput=[[alumniInput alloc]init];
     newAlumniInput.title=@"视频资料";
     newAlumniInput.tabBarItem.image=[UIImage imageNamed:@"videoicon.png"];
     UINavigationController *alumniNav=[[UINavigationController alloc]init];

@@ -13,7 +13,7 @@
 #import "XMLDocument.h"
 
 @interface AVTESTViewController : UIViewController<AVAudioPlayerDelegate,UITableViewDelegate,UITableViewDataSource,XMLDocumentDelegate>{
-@public
+    @public
     XMLDocument *xmlDocument;
     AVAudioPlayer *audioPlayer;
     MPMoviePlayerController *moviePlayer;
