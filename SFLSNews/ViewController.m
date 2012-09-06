@@ -65,7 +65,8 @@
     self.BKScrollView.backgroundColor=[UIColor clearColor]; 
     self.navigationController.navigationBar.barStyle=UIBarStyleBlack;
     uploadTimes=0;
-    NSString *serverAdress=@"http://teacher.sfls.cn/sflsapp/photocompupload";//家
+    //NSString *serverAdress=@"http://teacher.sfls.cn/sflsapp/photocompupload";//家
+    NSString *serverAdress=@"http://app.sfls.cn/reCord";
     uploadServerAddress=serverAdress;
     NSMutableArray *newArray=[[NSMutableArray alloc]init];
     newlyPhotoArray=newArray;
@@ -76,7 +77,7 @@
     timesOfPhotoTaken=0;
     lastTimeIncreaseHeight=0.0f;
     //self.navigationController.navigationBar.hidden=YES;
-    self.title=@"上外附中摄影大赛";
+    self.title=@"移动学习记录系统";
     BKScrollView.frame=CGRectMake(0,88, 320, 480);
     [BKScrollView setScrollEnabled:YES];
     [BKScrollView setContentSize:CGSizeMake(320, 480)];
@@ -567,7 +568,7 @@
         NSLog(@"banji空");
     }
     if ([takerNumber.text isEqualToString:@""]) {
-        errorInfo=[NSString stringWithFormat:@"%@%@",errorInfo,@"联系方式、"];
+        errorInfo=[NSString stringWithFormat:@"%@%@",errorInfo,@"学号、"];
         NSLog(@"联系空");
     }
     if ([classOfPhoto.text isEqualToString:@""]) {
