@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "85F41EBA14971EDE0087D1A0"
-               BuildableName = "&#38468;&#20013;&#26032;&#38395;.app"
+               BuildableName = "&#31227;&#21160;&#23398;&#20064;.app"
                BlueprintName = "&#31227;&#21160;&#23398;&#20064;"
                ReferencedContainer = "container:&#31227;&#21160;&#23398;&#20064;.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "85F41EDE14971EDE0087D1A0"
-               BuildableName = "&#38468;&#20013;&#26032;&#38395;Tests.octest"
+               BuildableName = "&#31227;&#21160;&#23398;&#20064;Tests.octest"
                BlueprintName = "&#31227;&#21160;&#23398;&#20064;Tests"
                ReferencedContainer = "container:&#31227;&#21160;&#23398;&#20064;.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "85F41EBA14971EDE0087D1A0"
-            BuildableName = "&#38468;&#20013;&#26032;&#38395;.app"
+            BuildableName = "&#31227;&#21160;&#23398;&#20064;.app"
             BlueprintName = "&#31227;&#21160;&#23398;&#20064;"
             ReferencedContainer = "container:&#31227;&#21160;&#23398;&#20064;.xcodeproj">
          </BuildableReference>
@@ -57,13 +57,12 @@
       buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
-      enableOpenGLFrameCaptureMode = "0"
       allowLocationSimulation = "YES">
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "85F41EBA14971EDE0087D1A0"
-            BuildableName = "&#38468;&#20013;&#26032;&#38395;.app"
+            BuildableName = "&#31227;&#21160;&#23398;&#20064;.app"
             BlueprintName = "&#31227;&#21160;&#23398;&#20064;"
             ReferencedContainer = "container:&#31227;&#21160;&#23398;&#20064;.xcodeproj">
          </BuildableReference>
@@ -86,7 +85,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "85F41EBA14971EDE0087D1A0"
-            BuildableName = "&#38468;&#20013;&#26032;&#38395;.app"
+            BuildableName = "&#31227;&#21160;&#23398;&#20064;.app"
             BlueprintName = "&#31227;&#21160;&#23398;&#20064;"
             ReferencedContainer = "container:&#31227;&#21160;&#23398;&#20064;.xcodeproj">
          </BuildableReference>
