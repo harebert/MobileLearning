@@ -960,7 +960,7 @@
 			path = egorefreshTableHeader_reSource;
 			sourceTree = "<group>";
 		};
-		85BA01EA152C89EE00001DC4 /* reCord */ = {
+		85BA01EA152C89EE00001DC4 /* sflsPhotoComp */ = {
 			isa = PBXGroup;
 			children = (
 				85BA01EC152C8A0F00001DC4 /* uploadPhoto.h */,
@@ -970,7 +970,7 @@
 				85BA01F2152C8A1B00001DC4 /* ViewController_iPad.xib */,
 				85BA01F3152C8A1B00001DC4 /* ViewController.xib */,
 			);
-			name = reCord;
+			name = sflsPhotoComp;
 			sourceTree = "<group>";
 		};
 		85C7599215EFB4B800AD0A8E /* 素材 */ = {
@@ -1074,7 +1074,7 @@
 				85F41ECF14971EDE0087D1A0 /* SFLSNewsAppDelegate.m */,
 				85F41ED114971EDE0087D1A0 /* MainWindow.xib */,
 				85E9DF8B14FBD9EE00C27FCD /* MobileInfo */,
-				85BA01EA152C89EE00001DC4 /* reCord */,
+				85BA01EA152C89EE00001DC4 /* sflsPhotoComp */,
 				85A1F2F914FBDDD50007AFAC /* sflsAV */,
 				85E9DF8C14FBDA0000C27FCD /* sflsAlumni */,
 				85A1F33614FBE2A40007AFAC /* sflsAboutUs */,
