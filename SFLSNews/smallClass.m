@@ -43,7 +43,7 @@
 - (void)viewDidLoad
 {
     NSString *title=self.title;
-    NSString *xmlPath=[NSString stringWithFormat: @"http://teacher.sfls.cn/sflsapp/video/creatVideo.asp?query=smallclass&bigclassname=%@",title];
+    NSString *xmlPath=[NSString stringWithFormat: @"http://app.sfls.cn/video_app/creatVideo_ipad_charge.asp?query=smallclass&bigclassname=%@",title];
     NSLog(@"%@",xmlPath);
     XMLDocument *newDocument=[[XMLDocument alloc]initWithDelegate:self];
     self.xmlDocument=newDocument;

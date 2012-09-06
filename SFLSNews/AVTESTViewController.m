@@ -20,7 +20,7 @@
     self.bigClassList=self.xmlDocument.rootElement.children;
     
     
-
+    
 }
 -(void)xmlDocumentDelegateParsingFailed:(XMLDocument *)paramSender withError:(NSError *)paramError{
     NSLog(@"Parse xml failed");
@@ -120,7 +120,7 @@
     else{
         NSLog(@"failed to instantiate the movie player");
     }
-   
+    
 }
 
 
@@ -135,27 +135,27 @@
 
 {
     
-    if ([videoURL rangeOfString:@"http://"].location!=NSNotFound||[videoURL rangeOfString:@"https://"].location!=NSNotFound) 
+    if ([videoURL rangeOfString:@"http://"].location!=NSNotFound||[videoURL rangeOfString:@"https://"].location!=NSNotFound)
         
     {
         
         NSURL *URL = [[NSURL alloc] initWithString:videoURL];
         
         if (URL) {
-                MPMoviePlayerController* tmpMoviePlayViewController=[[MPMoviePlayerController alloc] initWithContentURL:URL];
+            MPMoviePlayerController* tmpMoviePlayViewController=[[MPMoviePlayerController alloc] initWithContentURL:URL];
+            
+            if (tmpMoviePlayViewController)
                 
-                if (tmpMoviePlayViewController)
-                    
-                {
-                    
-                    self.moviePlayer=tmpMoviePlayViewController;
-                    [self.moviePlayer play];
-                    [self.view addSubview:self.moviePlayer.view];
-                    [self.moviePlayer setFullscreen:YES animated:YES];
-                }
+            {
                 
-                [tmpMoviePlayViewController release];    
-                
+                self.moviePlayer=tmpMoviePlayViewController;
+                [self.moviePlayer play];
+                [self.view addSubview:self.moviePlayer.view];
+                [self.moviePlayer setFullscreen:YES animated:YES];
+            }
+            
+            [tmpMoviePlayViewController release];
+            
             
             
             
@@ -238,7 +238,7 @@
     [theRequest addValue: msgLength forHTTPHeaderField:@"Content-Length"];
     [theRequest setHTTPMethod:@"POST"];
     [theRequest setHTTPBody: [soapMessage dataUsingEncoding:NSUTF8StringEncoding]];
-   
+    
     //请求
     NSURLConnection *theConnection = [[NSURLConnection alloc] initWithRequest:theRequest delegate:self startImmediately:YES];
     //如果连接已经建好，则初始化data
@@ -321,8 +321,8 @@
     {
         NSLog(@"theConnection is NULL");
     }
-
-
+    
+    
 }
 
 

@@ -93,7 +93,7 @@
 {
     //NSString *title=self.title;
     NSString *title=mySmallClass;
-    NSString *xmlPath=[NSString stringWithFormat: @"http://teacher.sfls.cn/sflsapp/video/creatVideo.asp?query=videolist&smallclassname=%@",title];
+    NSString *xmlPath=[NSString stringWithFormat: @"http://app.sfls.cn/video_app/creatVideo_ipad_charge.asp?query=videolist&smallclassname=%@",title];
     NSLog(@"%@",xmlPath);
     XMLDocument *newDocument=[[XMLDocument alloc]initWithDelegate:self];
     self.xmlDocument=newDocument;
