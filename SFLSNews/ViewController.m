@@ -322,13 +322,13 @@
             return @"";
             break;
         case 1:
-            return @"纪实性人物类";
+            return @"word小报制作记录";
             break;
         case 2:
-            return @"非纪实性人物类";
+            return @"CPI图表制作记录";
             break;
         case 3:
-            return @"风景类";
+            return @"FrontPage网站制作记录";
             break;
             
         default:
@@ -341,13 +341,13 @@
             classOfPhoto.text=@"";
             break;
         case 1:
-            classOfPhoto.text=@"纪实性人物";
+            classOfPhoto.text=@"word小报制作记录";
             break;
         case 2:
-            classOfPhoto.text=@"非纪实性人物类";
+            classOfPhoto.text=@"CPI图表制作记录";
             break;
         case 3:
-            classOfPhoto.text=@"风景类";
+            classOfPhoto.text=@"FrontPage网站制作记录";
             break;
             
         default:
@@ -601,10 +601,10 @@
                     errorInfo=[NSString stringWithFormat:@"%@%@",errorInfo,@"第五张图片说明、"];
                 }
     }
-    if (![takerPWD1.text isEqualToString:takerPWD2.text]) {
-        errorInfo=[NSString stringWithFormat:@"%@%@",errorInfo,@"两遍输入密码不吻合、"];
-    }
-    NSLog(@"%@",errorInfo);
+    //if (![takerPWD1.text isEqualToString:takerPWD2.text]) {
+        //errorInfo=[NSString stringWithFormat:@"%@%@",errorInfo,@"两遍输入密码不吻合、"];
+    //}
+    //NSLog(@"%@",errorInfo);
     if (![errorInfo isEqualToString:@""]) {
         UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"警告未填选项" message:[NSString stringWithFormat:@"%@必须填写",errorInfo] delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
         [alert show];
