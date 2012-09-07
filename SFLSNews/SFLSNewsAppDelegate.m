@@ -16,6 +16,7 @@
 #import "ViewController.h"
 #import "WBEngine.h"
 #import "bigClass.h"
+#import "SFLS_ExerciseViewController.h"
 @implementation SFLSNewsAppDelegate
 
 @synthesize MainWindow = _MainWindow;
@@ -58,7 +59,7 @@
     photoCompNav.title=@"随身记录";
     photoCompNav.tabBarItem.image=[UIImage imageNamed:@"recordicon.png"];
     
-    aboutUs *newAboutUs=[[aboutUs alloc]init];
+    SFLS_ExerciseViewController *newAboutUs=[[SFLS_ExerciseViewController alloc]init];
     newAboutUs.title=@"课后习题";
     newAboutUs.tabBarItem.image=[UIImage imageNamed:@"exerciseicon.png"];
     

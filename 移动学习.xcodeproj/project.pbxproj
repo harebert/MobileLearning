@@ -7,6 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		453D0DE615F9DD9900B71D2C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 453D0DDE15F9DD9900B71D2C /* Default.png */; };
+		453D0DE715F9DD9900B71D2C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 453D0DDF15F9DD9900B71D2C /* Default@2x.png */; };
+		453D0DE815F9DD9900B71D2C /* inputbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 453D0DE015F9DD9900B71D2C /* inputbox.png */; };
+		453D0DE915F9DD9900B71D2C /* launchimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 453D0DE115F9DD9900B71D2C /* launchimage.png */; };
+		453D0DEA15F9DD9900B71D2C /* launchimage@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 453D0DE215F9DD9900B71D2C /* launchimage@1x.png */; };
+		453D0DEB15F9DD9900B71D2C /* launchimage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 453D0DE315F9DD9900B71D2C /* launchimage@2x.png */; };
+		453D0DEC15F9DD9900B71D2C /* loginbak@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 453D0DE415F9DD9900B71D2C /* loginbak@1x.png */; };
+		453D0DED15F9DD9900B71D2C /* loginbak@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 453D0DE515F9DD9900B71D2C /* loginbak@2x.png */; };
+		453D0DF015F9DDAA00B71D2C /* questionListBAK@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 453D0DEE15F9DDAA00B71D2C /* questionListBAK@1x.png */; };
+		453D0DF115F9DDAA00B71D2C /* questionListBAK@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 453D0DEF15F9DDAA00B71D2C /* questionListBAK@2x.png */; };
+		453D0DFD15F9DDCC00B71D2C /* submitbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 453D0DFC15F9DDCC00B71D2C /* submitbutton.png */; };
+		453D0E1915F9E04300B71D2C /* errorQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 453D0E0D15F9E04200B71D2C /* errorQuestion.m */; };
+		453D0E1A15F9E04300B71D2C /* errorQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 453D0E0D15F9E04200B71D2C /* errorQuestion.m */; };
+		453D0E1B15F9E04300B71D2C /* errorQuestion.xib in Resources */ = {isa = PBXBuildFile; fileRef = 453D0E0E15F9E04200B71D2C /* errorQuestion.xib */; };
+		453D0E1C15F9E04300B71D2C /* errorQuestion.xib in Resources */ = {isa = PBXBuildFile; fileRef = 453D0E0E15F9E04200B71D2C /* errorQuestion.xib */; };
+		453D0E1D15F9E04300B71D2C /* examIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 453D0E1015F9E04200B71D2C /* examIndex.m */; };
+		453D0E1E15F9E04300B71D2C /* examIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 453D0E1015F9E04200B71D2C /* examIndex.m */; };
+		453D0E1F15F9E04300B71D2C /* examIndex.xib in Resources */ = {isa = PBXBuildFile; fileRef = 453D0E1115F9E04200B71D2C /* examIndex.xib */; };
+		453D0E2015F9E04300B71D2C /* examIndex.xib in Resources */ = {isa = PBXBuildFile; fileRef = 453D0E1115F9E04200B71D2C /* examIndex.xib */; };
+		453D0E2115F9E04300B71D2C /* SFLS_ExerciseAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 453D0E1315F9E04200B71D2C /* SFLS_ExerciseAppDelegate.m */; };
+		453D0E2215F9E04300B71D2C /* SFLS_ExerciseAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 453D0E1315F9E04200B71D2C /* SFLS_ExerciseAppDelegate.m */; };
+		453D0E2315F9E04300B71D2C /* SFLS_ExerciseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 453D0E1515F9E04200B71D2C /* SFLS_ExerciseViewController.m */; };
+		453D0E2415F9E04300B71D2C /* SFLS_ExerciseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 453D0E1515F9E04200B71D2C /* SFLS_ExerciseViewController.m */; };
+		453D0E2515F9E04300B71D2C /* tempCLass.m in Sources */ = {isa = PBXBuildFile; fileRef = 453D0E1715F9E04200B71D2C /* tempCLass.m */; };
+		453D0E2615F9E04300B71D2C /* tempCLass.m in Sources */ = {isa = PBXBuildFile; fileRef = 453D0E1715F9E04200B71D2C /* tempCLass.m */; };
+		453D0E2715F9E04300B71D2C /* tempCLass.xib in Resources */ = {isa = PBXBuildFile; fileRef = 453D0E1815F9E04200B71D2C /* tempCLass.xib */; };
+		453D0E2815F9E04300B71D2C /* tempCLass.xib in Resources */ = {isa = PBXBuildFile; fileRef = 453D0E1815F9E04200B71D2C /* tempCLass.xib */; };
+		453D0E2F15F9E05D00B71D2C /* questionPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 453D0E2A15F9E05D00B71D2C /* questionPage.m */; };
+		453D0E3015F9E05D00B71D2C /* questionPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 453D0E2A15F9E05D00B71D2C /* questionPage.m */; };
+		453D0E3115F9E05D00B71D2C /* questionPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 453D0E2B15F9E05D00B71D2C /* questionPage.xib */; };
+		453D0E3215F9E05D00B71D2C /* questionPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 453D0E2B15F9E05D00B71D2C /* questionPage.xib */; };
+		453D0E3315F9E05D00B71D2C /* viewErrorList.m in Sources */ = {isa = PBXBuildFile; fileRef = 453D0E2D15F9E05D00B71D2C /* viewErrorList.m */; };
+		453D0E3415F9E05D00B71D2C /* viewErrorList.m in Sources */ = {isa = PBXBuildFile; fileRef = 453D0E2D15F9E05D00B71D2C /* viewErrorList.m */; };
+		453D0E3515F9E05D00B71D2C /* viewErrorList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 453D0E2E15F9E05D00B71D2C /* viewErrorList.xib */; };
+		453D0E3615F9E05D00B71D2C /* viewErrorList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 453D0E2E15F9E05D00B71D2C /* viewErrorList.xib */; };
+		453D0E3915F9E08100B71D2C /* SFLS_ExerciseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 453D0E3715F9E08100B71D2C /* SFLS_ExerciseViewController.xib */; };
+		453D0E3A15F9E08100B71D2C /* SFLS_ExerciseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 453D0E3715F9E08100B71D2C /* SFLS_ExerciseViewController.xib */; };
+		453D0E3D15F9E13900B71D2C /* selQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 453D0E3C15F9E13900B71D2C /* selQuestion.m */; };
+		453D0E3E15F9E13900B71D2C /* selQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 453D0E3C15F9E13900B71D2C /* selQuestion.m */; };
 		851FDA4615E4C58D0086616A /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 851FD9BE15E4C58D0086616A /* FMDatabase.m */; };
 		851FDA4715E4C58D0086616A /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 851FD9C015E4C58D0086616A /* FMDatabaseAdditions.m */; };
 		851FDA4815E4C58D0086616A /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 851FD9C215E4C58D0086616A /* FMResultSet.m */; };
@@ -218,6 +257,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		453D0DDE15F9DD9900B71D2C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Exercise/Default.png; sourceTree = SOURCE_ROOT; };
+		453D0DDF15F9DD9900B71D2C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Exercise/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		453D0DE015F9DD9900B71D2C /* inputbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = inputbox.png; path = Exercise/inputbox.png; sourceTree = SOURCE_ROOT; };
+		453D0DE115F9DD9900B71D2C /* launchimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launchimage.png; path = Exercise/launchimage.png; sourceTree = SOURCE_ROOT; };
+		453D0DE215F9DD9900B71D2C /* launchimage@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "launchimage@1x.png"; path = "Exercise/launchimage@1x.png"; sourceTree = SOURCE_ROOT; };
+		453D0DE315F9DD9900B71D2C /* launchimage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "launchimage@2x.png"; path = "Exercise/launchimage@2x.png"; sourceTree = SOURCE_ROOT; };
+		453D0DE415F9DD9900B71D2C /* loginbak@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loginbak@1x.png"; path = "Exercise/loginbak@1x.png"; sourceTree = SOURCE_ROOT; };
+		453D0DE515F9DD9900B71D2C /* loginbak@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loginbak@2x.png"; path = "Exercise/loginbak@2x.png"; sourceTree = SOURCE_ROOT; };
+		453D0DEE15F9DDAA00B71D2C /* questionListBAK@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "questionListBAK@1x.png"; path = "Exercise/questionListBAK@1x.png"; sourceTree = SOURCE_ROOT; };
+		453D0DEF15F9DDAA00B71D2C /* questionListBAK@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "questionListBAK@2x.png"; path = "Exercise/questionListBAK@2x.png"; sourceTree = SOURCE_ROOT; };
+		453D0DFC15F9DDCC00B71D2C /* submitbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = submitbutton.png; path = Exercise/submitbutton.png; sourceTree = SOURCE_ROOT; };
+		453D0E0C15F9E04200B71D2C /* errorQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = errorQuestion.h; path = Exercise/SFLS_Exercise/errorQuestion.h; sourceTree = SOURCE_ROOT; };
+		453D0E0D15F9E04200B71D2C /* errorQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = errorQuestion.m; path = Exercise/SFLS_Exercise/errorQuestion.m; sourceTree = SOURCE_ROOT; };
+		453D0E0E15F9E04200B71D2C /* errorQuestion.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = errorQuestion.xib; path = Exercise/SFLS_Exercise/errorQuestion.xib; sourceTree = SOURCE_ROOT; };
+		453D0E0F15F9E04200B71D2C /* examIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = examIndex.h; path = Exercise/SFLS_Exercise/examIndex.h; sourceTree = SOURCE_ROOT; };
+		453D0E1015F9E04200B71D2C /* examIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = examIndex.m; path = Exercise/SFLS_Exercise/examIndex.m; sourceTree = SOURCE_ROOT; };
+		453D0E1115F9E04200B71D2C /* examIndex.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = examIndex.xib; path = Exercise/SFLS_Exercise/examIndex.xib; sourceTree = SOURCE_ROOT; };
+		453D0E1215F9E04200B71D2C /* SFLS_ExerciseAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFLS_ExerciseAppDelegate.h; path = Exercise/SFLS_Exercise/SFLS_ExerciseAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		453D0E1315F9E04200B71D2C /* SFLS_ExerciseAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFLS_ExerciseAppDelegate.m; path = Exercise/SFLS_Exercise/SFLS_ExerciseAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		453D0E1415F9E04200B71D2C /* SFLS_ExerciseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFLS_ExerciseViewController.h; path = Exercise/SFLS_Exercise/SFLS_ExerciseViewController.h; sourceTree = SOURCE_ROOT; };
+		453D0E1515F9E04200B71D2C /* SFLS_ExerciseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFLS_ExerciseViewController.m; path = Exercise/SFLS_Exercise/SFLS_ExerciseViewController.m; sourceTree = SOURCE_ROOT; };
+		453D0E1615F9E04200B71D2C /* tempCLass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tempCLass.h; path = Exercise/SFLS_Exercise/tempCLass.h; sourceTree = SOURCE_ROOT; };
+		453D0E1715F9E04200B71D2C /* tempCLass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = tempCLass.m; path = Exercise/SFLS_Exercise/tempCLass.m; sourceTree = SOURCE_ROOT; };
+		453D0E1815F9E04200B71D2C /* tempCLass.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = tempCLass.xib; path = Exercise/SFLS_Exercise/tempCLass.xib; sourceTree = SOURCE_ROOT; };
+		453D0E2915F9E05D00B71D2C /* questionPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = questionPage.h; path = Exercise/questionPage.h; sourceTree = SOURCE_ROOT; };
+		453D0E2A15F9E05D00B71D2C /* questionPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = questionPage.m; path = Exercise/questionPage.m; sourceTree = SOURCE_ROOT; };
+		453D0E2B15F9E05D00B71D2C /* questionPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = questionPage.xib; path = Exercise/questionPage.xib; sourceTree = SOURCE_ROOT; };
+		453D0E2C15F9E05D00B71D2C /* viewErrorList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = viewErrorList.h; path = Exercise/viewErrorList.h; sourceTree = SOURCE_ROOT; };
+		453D0E2D15F9E05D00B71D2C /* viewErrorList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = viewErrorList.m; path = Exercise/viewErrorList.m; sourceTree = SOURCE_ROOT; };
+		453D0E2E15F9E05D00B71D2C /* viewErrorList.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = viewErrorList.xib; path = Exercise/viewErrorList.xib; sourceTree = SOURCE_ROOT; };
+		453D0E3815F9E08100B71D2C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = Exercise/SFLS_Exercise/en.lproj/SFLS_ExerciseViewController.xib; sourceTree = SOURCE_ROOT; };
+		453D0E3B15F9E13900B71D2C /* selQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = selQuestion.h; path = Exercise/SFLS_Exercise/selQuestion.h; sourceTree = SOURCE_ROOT; };
+		453D0E3C15F9E13900B71D2C /* selQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = selQuestion.m; path = Exercise/SFLS_Exercise/selQuestion.m; sourceTree = SOURCE_ROOT; };
 		851FD9BD15E4C58D0086616A /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
 		851FD9BE15E4C58D0086616A /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
 		851FD9BF15E4C58D0086616A /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
@@ -535,6 +607,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		453D0DDC15F9D94100B71D2C /* exercise */ = {
+			isa = PBXGroup;
+			children = (
+				453D0E3B15F9E13900B71D2C /* selQuestion.h */,
+				453D0E3C15F9E13900B71D2C /* selQuestion.m */,
+				453D0E2915F9E05D00B71D2C /* questionPage.h */,
+				453D0E2A15F9E05D00B71D2C /* questionPage.m */,
+				453D0E2B15F9E05D00B71D2C /* questionPage.xib */,
+				453D0E2C15F9E05D00B71D2C /* viewErrorList.h */,
+				453D0E2D15F9E05D00B71D2C /* viewErrorList.m */,
+				453D0E2E15F9E05D00B71D2C /* viewErrorList.xib */,
+				453D0E0C15F9E04200B71D2C /* errorQuestion.h */,
+				453D0E0D15F9E04200B71D2C /* errorQuestion.m */,
+				453D0E0E15F9E04200B71D2C /* errorQuestion.xib */,
+				453D0E0F15F9E04200B71D2C /* examIndex.h */,
+				453D0E1015F9E04200B71D2C /* examIndex.m */,
+				453D0E1115F9E04200B71D2C /* examIndex.xib */,
+				453D0E1215F9E04200B71D2C /* SFLS_ExerciseAppDelegate.h */,
+				453D0E1315F9E04200B71D2C /* SFLS_ExerciseAppDelegate.m */,
+				453D0E1415F9E04200B71D2C /* SFLS_ExerciseViewController.h */,
+				453D0E1515F9E04200B71D2C /* SFLS_ExerciseViewController.m */,
+				453D0E3715F9E08100B71D2C /* SFLS_ExerciseViewController.xib */,
+				453D0E1615F9E04200B71D2C /* tempCLass.h */,
+				453D0E1715F9E04200B71D2C /* tempCLass.m */,
+				453D0E1815F9E04200B71D2C /* tempCLass.xib */,
+				453D0DDD15F9D94C00B71D2C /* images */,
+			);
+			name = exercise;
+			sourceTree = "<group>";
+		};
+		453D0DDD15F9D94C00B71D2C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				453D0DFC15F9DDCC00B71D2C /* submitbutton.png */,
+				453D0DEE15F9DDAA00B71D2C /* questionListBAK@1x.png */,
+				453D0DEF15F9DDAA00B71D2C /* questionListBAK@2x.png */,
+				453D0DDE15F9DD9900B71D2C /* Default.png */,
+				453D0DDF15F9DD9900B71D2C /* Default@2x.png */,
+				453D0DE015F9DD9900B71D2C /* inputbox.png */,
+				453D0DE115F9DD9900B71D2C /* launchimage.png */,
+				453D0DE215F9DD9900B71D2C /* launchimage@1x.png */,
+				453D0DE315F9DD9900B71D2C /* launchimage@2x.png */,
+				453D0DE415F9DD9900B71D2C /* loginbak@1x.png */,
+				453D0DE515F9DD9900B71D2C /* loginbak@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		851FD9BC15E4C58D0086616A /* FMDB */ = {
 			isa = PBXGroup;
 			children = (
@@ -1070,6 +1190,7 @@
 		85F41EC514971EDE0087D1A0 /* MobileLearning */ = {
 			isa = PBXGroup;
 			children = (
+				453D0DDC15F9D94100B71D2C /* exercise */,
 				85F41ECE14971EDE0087D1A0 /* SFLSNewsAppDelegate.h */,
 				85F41ECF14971EDE0087D1A0 /* SFLSNewsAppDelegate.m */,
 				85F41ED114971EDE0087D1A0 /* MainWindow.xib */,
@@ -1318,6 +1439,22 @@
 				85C75A8415F7A6F800AD0A8E /* iphone_button_touched.png in Resources */,
 				85C75A8515F7A6F800AD0A8E /* iphone_button.png in Resources */,
 				85C75A8615F7A6F800AD0A8E /* iphoneBak1.png in Resources */,
+				453D0DE615F9DD9900B71D2C /* Default.png in Resources */,
+				453D0DE715F9DD9900B71D2C /* Default@2x.png in Resources */,
+				453D0DE815F9DD9900B71D2C /* inputbox.png in Resources */,
+				453D0DE915F9DD9900B71D2C /* launchimage.png in Resources */,
+				453D0DEA15F9DD9900B71D2C /* launchimage@1x.png in Resources */,
+				453D0DEB15F9DD9900B71D2C /* launchimage@2x.png in Resources */,
+				453D0DEC15F9DD9900B71D2C /* loginbak@1x.png in Resources */,
+				453D0DED15F9DD9900B71D2C /* loginbak@2x.png in Resources */,
+				453D0DF015F9DDAA00B71D2C /* questionListBAK@1x.png in Resources */,
+				453D0DF115F9DDAA00B71D2C /* questionListBAK@2x.png in Resources */,
+				453D0E1B15F9E04300B71D2C /* errorQuestion.xib in Resources */,
+				453D0E1F15F9E04300B71D2C /* examIndex.xib in Resources */,
+				453D0E2715F9E04300B71D2C /* tempCLass.xib in Resources */,
+				453D0E3115F9E05D00B71D2C /* questionPage.xib in Resources */,
+				453D0E3515F9E05D00B71D2C /* viewErrorList.xib in Resources */,
+				453D0E3915F9E08100B71D2C /* SFLS_ExerciseViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1327,6 +1464,13 @@
 			files = (
 				85F41EEC14971EDE0087D1A0 /* InfoPlist.strings in Resources */,
 				85F41EEE14971EDE0087D1A0 /* SFLSNewsTests.h in Resources */,
+				453D0DFD15F9DDCC00B71D2C /* submitbutton.png in Resources */,
+				453D0E1C15F9E04300B71D2C /* errorQuestion.xib in Resources */,
+				453D0E2015F9E04300B71D2C /* examIndex.xib in Resources */,
+				453D0E2815F9E04300B71D2C /* tempCLass.xib in Resources */,
+				453D0E3215F9E05D00B71D2C /* questionPage.xib in Resources */,
+				453D0E3615F9E05D00B71D2C /* viewErrorList.xib in Resources */,
+				453D0E3A15F9E08100B71D2C /* SFLS_ExerciseViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1433,6 +1577,14 @@
 				851FDAF215E4CDE90086616A /* WBUtil.m in Sources */,
 				851FDAF315E4CDE90086616A /* SinaWeiBoSDK.m in Sources */,
 				856AD7BF15E5438C00F433C4 /* DownImage.m in Sources */,
+				453D0E1915F9E04300B71D2C /* errorQuestion.m in Sources */,
+				453D0E1D15F9E04300B71D2C /* examIndex.m in Sources */,
+				453D0E2115F9E04300B71D2C /* SFLS_ExerciseAppDelegate.m in Sources */,
+				453D0E2315F9E04300B71D2C /* SFLS_ExerciseViewController.m in Sources */,
+				453D0E2515F9E04300B71D2C /* tempCLass.m in Sources */,
+				453D0E2F15F9E05D00B71D2C /* questionPage.m in Sources */,
+				453D0E3315F9E05D00B71D2C /* viewErrorList.m in Sources */,
+				453D0E3D15F9E13900B71D2C /* selQuestion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1442,6 +1594,14 @@
 			files = (
 				85F41EF014971EDE0087D1A0 /* SFLSNewsTests.m in Sources */,
 				856AD7C015E5438C00F433C4 /* DownImage.m in Sources */,
+				453D0E1A15F9E04300B71D2C /* errorQuestion.m in Sources */,
+				453D0E1E15F9E04300B71D2C /* examIndex.m in Sources */,
+				453D0E2215F9E04300B71D2C /* SFLS_ExerciseAppDelegate.m in Sources */,
+				453D0E2415F9E04300B71D2C /* SFLS_ExerciseViewController.m in Sources */,
+				453D0E2615F9E04300B71D2C /* tempCLass.m in Sources */,
+				453D0E3015F9E05D00B71D2C /* questionPage.m in Sources */,
+				453D0E3415F9E05D00B71D2C /* viewErrorList.m in Sources */,
+				453D0E3E15F9E13900B71D2C /* selQuestion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1456,6 +1616,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		453D0E3715F9E08100B71D2C /* SFLS_ExerciseViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				453D0E3815F9E08100B71D2C /* en */,
+			);
+			name = SFLS_ExerciseViewController.xib;
+			sourceTree = "<group>";
+		};
 		851FDA9815E4CDE90086616A /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
