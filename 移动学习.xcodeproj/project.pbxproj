@@ -17,7 +17,6 @@
 		453D0DED15F9DD9900B71D2C /* loginbak@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 453D0DE515F9DD9900B71D2C /* loginbak@2x.png */; };
 		453D0DF015F9DDAA00B71D2C /* questionListBAK@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 453D0DEE15F9DDAA00B71D2C /* questionListBAK@1x.png */; };
 		453D0DF115F9DDAA00B71D2C /* questionListBAK@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 453D0DEF15F9DDAA00B71D2C /* questionListBAK@2x.png */; };
-		453D0DFD15F9DDCC00B71D2C /* submitbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 453D0DFC15F9DDCC00B71D2C /* submitbutton.png */; };
 		453D0E1915F9E04300B71D2C /* errorQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 453D0E0D15F9E04200B71D2C /* errorQuestion.m */; };
 		453D0E1A15F9E04300B71D2C /* errorQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 453D0E0D15F9E04200B71D2C /* errorQuestion.m */; };
 		453D0E1B15F9E04300B71D2C /* errorQuestion.xib in Resources */ = {isa = PBXBuildFile; fileRef = 453D0E0E15F9E04200B71D2C /* errorQuestion.xib */; };
@@ -42,8 +41,6 @@
 		453D0E3415F9E05D00B71D2C /* viewErrorList.m in Sources */ = {isa = PBXBuildFile; fileRef = 453D0E2D15F9E05D00B71D2C /* viewErrorList.m */; };
 		453D0E3515F9E05D00B71D2C /* viewErrorList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 453D0E2E15F9E05D00B71D2C /* viewErrorList.xib */; };
 		453D0E3615F9E05D00B71D2C /* viewErrorList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 453D0E2E15F9E05D00B71D2C /* viewErrorList.xib */; };
-		453D0E3915F9E08100B71D2C /* SFLS_ExerciseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 453D0E3715F9E08100B71D2C /* SFLS_ExerciseViewController.xib */; };
-		453D0E3A15F9E08100B71D2C /* SFLS_ExerciseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 453D0E3715F9E08100B71D2C /* SFLS_ExerciseViewController.xib */; };
 		453D0E3D15F9E13900B71D2C /* selQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 453D0E3C15F9E13900B71D2C /* selQuestion.m */; };
 		453D0E3E15F9E13900B71D2C /* selQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 453D0E3C15F9E13900B71D2C /* selQuestion.m */; };
 		851FDA4615E4C58D0086616A /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 851FD9BE15E4C58D0086616A /* FMDatabase.m */; };
@@ -214,6 +211,8 @@
 		85C75A8415F7A6F800AD0A8E /* iphone_button_touched.png in Resources */ = {isa = PBXBuildFile; fileRef = 85C75A7E15F7A6F800AD0A8E /* iphone_button_touched.png */; };
 		85C75A8515F7A6F800AD0A8E /* iphone_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 85C75A7F15F7A6F800AD0A8E /* iphone_button.png */; };
 		85C75A8615F7A6F800AD0A8E /* iphoneBak1.png in Resources */ = {isa = PBXBuildFile; fileRef = 85C75A8015F7A6F800AD0A8E /* iphoneBak1.png */; };
+		85D7E8BC15F9F715005DD9D6 /* SFLS_ExerciseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85D7E8BB15F9F715005DD9D6 /* SFLS_ExerciseViewController.xib */; };
+		85D7E8BE15F9F800005DD9D6 /* submitbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 85D7E8BD15F9F800005DD9D6 /* submitbutton.png */; };
 		85DD995C1503661E00B731FC /* avBAK.png in Resources */ = {isa = PBXBuildFile; fileRef = 85DD995B1503661E00B731FC /* avBAK.png */; };
 		85E7C15B14ED37BD0019FBAF /* newsapplogo-retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 85E7C15A14ED37BD0019FBAF /* newsapplogo-retina.png */; };
 		85E7C15E14ED38040019FBAF /* newsapplogo-retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 85E7C15D14ED38040019FBAF /* newsapplogo-retina.png */; };
@@ -267,7 +266,6 @@
 		453D0DE515F9DD9900B71D2C /* loginbak@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loginbak@2x.png"; path = "Exercise/loginbak@2x.png"; sourceTree = SOURCE_ROOT; };
 		453D0DEE15F9DDAA00B71D2C /* questionListBAK@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "questionListBAK@1x.png"; path = "Exercise/questionListBAK@1x.png"; sourceTree = SOURCE_ROOT; };
 		453D0DEF15F9DDAA00B71D2C /* questionListBAK@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "questionListBAK@2x.png"; path = "Exercise/questionListBAK@2x.png"; sourceTree = SOURCE_ROOT; };
-		453D0DFC15F9DDCC00B71D2C /* submitbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = submitbutton.png; path = Exercise/submitbutton.png; sourceTree = SOURCE_ROOT; };
 		453D0E0C15F9E04200B71D2C /* errorQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = errorQuestion.h; path = Exercise/SFLS_Exercise/errorQuestion.h; sourceTree = SOURCE_ROOT; };
 		453D0E0D15F9E04200B71D2C /* errorQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = errorQuestion.m; path = Exercise/SFLS_Exercise/errorQuestion.m; sourceTree = SOURCE_ROOT; };
 		453D0E0E15F9E04200B71D2C /* errorQuestion.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = errorQuestion.xib; path = Exercise/SFLS_Exercise/errorQuestion.xib; sourceTree = SOURCE_ROOT; };
@@ -287,7 +285,6 @@
 		453D0E2C15F9E05D00B71D2C /* viewErrorList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = viewErrorList.h; path = Exercise/viewErrorList.h; sourceTree = SOURCE_ROOT; };
 		453D0E2D15F9E05D00B71D2C /* viewErrorList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = viewErrorList.m; path = Exercise/viewErrorList.m; sourceTree = SOURCE_ROOT; };
 		453D0E2E15F9E05D00B71D2C /* viewErrorList.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = viewErrorList.xib; path = Exercise/viewErrorList.xib; sourceTree = SOURCE_ROOT; };
-		453D0E3815F9E08100B71D2C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = Exercise/SFLS_Exercise/en.lproj/SFLS_ExerciseViewController.xib; sourceTree = SOURCE_ROOT; };
 		453D0E3B15F9E13900B71D2C /* selQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = selQuestion.h; path = Exercise/SFLS_Exercise/selQuestion.h; sourceTree = SOURCE_ROOT; };
 		453D0E3C15F9E13900B71D2C /* selQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = selQuestion.m; path = Exercise/SFLS_Exercise/selQuestion.m; sourceTree = SOURCE_ROOT; };
 		851FD9BD15E4C58D0086616A /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
@@ -544,6 +541,8 @@
 		85C75A8015F7A6F800AD0A8E /* iphoneBak1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphoneBak1.png; sourceTree = "<group>"; };
 		85D4919B15A27D870015C6AD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/MainWindow.xib"; sourceTree = "<group>"; };
 		85D4919D15A27DB80015C6AD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/SFLSNewsViewController.xib"; sourceTree = "<group>"; };
+		85D7E8BB15F9F715005DD9D6 /* SFLS_ExerciseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SFLS_ExerciseViewController.xib; sourceTree = "<group>"; };
+		85D7E8BD15F9F800005DD9D6 /* submitbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = submitbutton.png; sourceTree = "<group>"; };
 		85DD995B1503661E00B731FC /* avBAK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avBAK.png; sourceTree = "<group>"; };
 		85E7C15A14ED37BD0019FBAF /* newsapplogo-retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "newsapplogo-retina.png"; sourceTree = "<group>"; };
 		85E7C15D14ED38040019FBAF /* newsapplogo-retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "newsapplogo-retina.png"; sourceTree = "<group>"; };
@@ -627,8 +626,8 @@
 				453D0E1215F9E04200B71D2C /* SFLS_ExerciseAppDelegate.h */,
 				453D0E1315F9E04200B71D2C /* SFLS_ExerciseAppDelegate.m */,
 				453D0E1415F9E04200B71D2C /* SFLS_ExerciseViewController.h */,
+				85D7E8BB15F9F715005DD9D6 /* SFLS_ExerciseViewController.xib */,
 				453D0E1515F9E04200B71D2C /* SFLS_ExerciseViewController.m */,
-				453D0E3715F9E08100B71D2C /* SFLS_ExerciseViewController.xib */,
 				453D0E1615F9E04200B71D2C /* tempCLass.h */,
 				453D0E1715F9E04200B71D2C /* tempCLass.m */,
 				453D0E1815F9E04200B71D2C /* tempCLass.xib */,
@@ -640,7 +639,7 @@
 		453D0DDD15F9D94C00B71D2C /* images */ = {
 			isa = PBXGroup;
 			children = (
-				453D0DFC15F9DDCC00B71D2C /* submitbutton.png */,
+				85D7E8BD15F9F800005DD9D6 /* submitbutton.png */,
 				453D0DEE15F9DDAA00B71D2C /* questionListBAK@1x.png */,
 				453D0DEF15F9DDAA00B71D2C /* questionListBAK@2x.png */,
 				453D0DDE15F9DD9900B71D2C /* Default.png */,
@@ -1454,7 +1453,8 @@
 				453D0E2715F9E04300B71D2C /* tempCLass.xib in Resources */,
 				453D0E3115F9E05D00B71D2C /* questionPage.xib in Resources */,
 				453D0E3515F9E05D00B71D2C /* viewErrorList.xib in Resources */,
-				453D0E3915F9E08100B71D2C /* SFLS_ExerciseViewController.xib in Resources */,
+				85D7E8BC15F9F715005DD9D6 /* SFLS_ExerciseViewController.xib in Resources */,
+				85D7E8BE15F9F800005DD9D6 /* submitbutton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1464,13 +1464,11 @@
 			files = (
 				85F41EEC14971EDE0087D1A0 /* InfoPlist.strings in Resources */,
 				85F41EEE14971EDE0087D1A0 /* SFLSNewsTests.h in Resources */,
-				453D0DFD15F9DDCC00B71D2C /* submitbutton.png in Resources */,
 				453D0E1C15F9E04300B71D2C /* errorQuestion.xib in Resources */,
 				453D0E2015F9E04300B71D2C /* examIndex.xib in Resources */,
 				453D0E2815F9E04300B71D2C /* tempCLass.xib in Resources */,
 				453D0E3215F9E05D00B71D2C /* questionPage.xib in Resources */,
 				453D0E3615F9E05D00B71D2C /* viewErrorList.xib in Resources */,
-				453D0E3A15F9E08100B71D2C /* SFLS_ExerciseViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1616,14 +1614,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		453D0E3715F9E08100B71D2C /* SFLS_ExerciseViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				453D0E3815F9E08100B71D2C /* en */,
-			);
-			name = SFLS_ExerciseViewController.xib;
-			sourceTree = "<group>";
-		};
 		851FDA9815E4CDE90086616A /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (

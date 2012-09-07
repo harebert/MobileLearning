@@ -59,11 +59,14 @@
     photoCompNav.title=@"随身记录";
     photoCompNav.tabBarItem.image=[UIImage imageNamed:@"recordicon.png"];
     
+    UINavigationController *exerciseNav=[[UINavigationController alloc]init];
     SFLS_ExerciseViewController *newAboutUs=[[SFLS_ExerciseViewController alloc]init];
-    newAboutUs.title=@"课后习题";
-    newAboutUs.tabBarItem.image=[UIImage imageNamed:@"exerciseicon.png"];
     
-    NSArray *viewControllerArray=[[NSArray alloc]initWithObjects:newsNav,alumniNav,photoCompNav ,newAboutUs, nil];
+    exerciseNav.title=@"课后习题";
+    exerciseNav.tabBarItem.image=[UIImage imageNamed:@"exerciseicon.png"];
+    [exerciseNav pushViewController:newAboutUs animated:YES];
+    
+    NSArray *viewControllerArray=[[NSArray alloc]initWithObjects:newsNav,alumniNav,photoCompNav ,exerciseNav, nil];
     RotatingTabBarController *mainViewController=[[RotatingTabBarController alloc]init];
     myNewTabBarController=mainViewController;
     [myNewTabBarController setViewControllers:viewControllerArray animated:YES];

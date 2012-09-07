@@ -68,6 +68,7 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
+    [super viewDidLoad];
     self.view.backgroundColor=[UIColor colorWithPatternImage:[UIImage imageNamed:@"loginbak@1x.png"]];
     self.navigationController.navigationBarHidden=YES;
     //评分系统
@@ -244,7 +245,7 @@
                 newExamIndex.title=[NSString stringWithFormat:@"游客模式"];
                 newExamIndex.guestMode=@"YES";
                 [self.navigationController pushViewController:newExamIndex animated:YES];
-                
+                NSLog(@"login guest mode ok");
                 }
         }
         else{
